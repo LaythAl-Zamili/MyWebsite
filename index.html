@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Layth Al-Zamili</title>
+    <meta
+      name="description"
+      content="Layth Al-Zamili — Software Engineer specialized in ServiceNow, enterprise integrations, IT operations, automation, and modern web development."
+    />
+    <meta name="author" content="Layth Al-Zamili" />
+
+    <meta property="og:title" content="Layth Al-Zamili" />
+    <meta
+      property="og:description"
+      content="Software Engineer | ServiceNow | Enterprise Integrations & Operations"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./web-app-manifest-512x512.png" />
+
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./favicon-96x96.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-icon.png"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a class="brand" href="#home" aria-label="L12 home">
+        <img src="./L12.png" alt="L12 logo" />
+        <span>
+          <strong data-i18n="brandName">Layth Al-Zamili</strong>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#expertise" data-i18n="navExpertise">Expertise</a>
+        <a href="#projects" data-i18n="navProjects">Projects</a>
+        <a href="#experience" data-i18n="navExperience">Experience</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="actions">
+        <select
+          class="lang-select"
+          id="langSelect"
+          aria-label="Select language"
+        >
+          <option value="en">EN</option>
+          <option value="ar">AR</option>
+        </select>
+        <button
+          class="theme"
+          id="themeBtn"
+          type="button"
+          aria-label="Toggle theme"
+        >
+          ☾
+        </button>
+        <button class="menu" id="menuBtn" type="button" aria-label="Open menu">
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-text">
+          <p class="tag" data-i18n="heroTag">
+            Software Engineer · ServiceNow · Enterprise Operations
+          </p>
+          <h1 data-i18n="heroTitle">
+            I build reliable digital systems for real business workflows.
+          </h1>
+          <p class="lead" data-i18n="heroLead">
+            Software Engineer with 5+ years of experience across ServiceNow
+            development, enterprise integrations, IT operations, technical
+            support, incident handling, and automation.
+          </p>
+
+          <div class="hero-buttons">
+            <a
+              class="btn primary"
+              href="mailto:laythalzamili91@gmail.com"
+              data-i18n="emailMe"
+              >Email me</a
+            >
+            <a class="btn ghost" href="#expertise" data-i18n="seeExpertise"
+              >See expertise</a
+            >
+          </div>
+
+          <div class="metric-row">
+            <div>
+              <strong>5+</strong
+              ><span data-i18n="metricYears">Years experience</span>
+            </div>
+            <div>
+              <strong>CAD</strong
+              ><span data-i18n="metricCert">ServiceNow certified</span>
+            </div>
+            <div>
+              <strong>4</strong
+              ><span data-i18n="metricLanguages">Languages</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="photo-card">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <img
+              class="profile"
+              src="./profile-photo.jpeg"
+              alt="Layth Al-Zamili"
+            />
+            <div class="mini-logo"><img src="./L12.png" alt="L12 logo" /></div>
+          </div>
+
+          <div class="brand-note">
+            <h2>L12</h2>
+            <p data-i18n="l12Text">
+              L means Layth. 12 is a number I like. Together, L12 is my simple
+              personal brand: clean, memorable, and focused.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-head">
+          <span data-i18n="aboutLabel">About</span>
+          <h2 data-i18n="aboutTitle">
+            Practical engineering with clear communication.
+          </h2>
+        </div>
+        <div class="about-grid">
+          <p data-i18n="aboutOne">
+            My work combines ServiceNow application development, user stories,
+            enterprise IT operations, asset management, Windows systems,
+            incident handling, and stakeholder communication.
+          </p>
+          <p data-i18n="aboutTwo">
+            I care about maintainable solutions: readable logic, clean
+            documentation, careful troubleshooting, and systems that support
+            real teams instead of adding complexity.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="expertise">
+        <div class="section-head center">
+          <span data-i18n="expertiseLabel">Expertise</span>
+          <h2 data-i18n="expertiseTitle">
+            Focused on systems that keep work moving.
+          </h2>
+        </div>
+
+        <div class="expertise-grid">
+          <article>
+            <div class="icon">⚙️</div>
+            <h3 data-i18n="serviceTitle">ServiceNow Development</h3>
+            <p data-i18n="serviceText">
+              Custom functionality, workflows, platform configuration, user
+              stories, documentation, testing, and troubleshooting.
+            </p>
+          </article>
+
+          <article>
+            <div class="icon">🔗</div>
+            <h3 data-i18n="integrationTitle">Enterprise Integrations</h3>
+            <p data-i18n="integrationText">
+              Connecting ServiceNow data and workflows with third-party
+              applications and business-critical environments.
+            </p>
+          </article>
+
+          <article>
+            <div class="icon">🛠️</div>
+            <h3 data-i18n="opsTitle">IT Operations</h3>
+            <p data-i18n="opsText">
+              Incident, change, asset, CMDB-related processes, support,
+              escalation, Windows systems, and operational records.
+            </p>
+          </article>
+
+          <article>
+            <div class="icon">💻</div>
+            <h3 data-i18n="webTitle">Web Development</h3>
+            <p data-i18n="webText">
+              Clean web interfaces using JavaScript, HTML5, CSS3, GitHub, and
+              practical deployment workflows.
+            </p>
+          </article>
+        </div>
+
+        <div class="skills">
+          <span>ServiceNow</span><span>JavaScript</span><span>Python</span
+          ><span>HTML5</span><span>CSS3</span> <span>GitHub</span
+          ><span>Jira</span><span>Active Directory</span
+          ><span>Windows Server</span> <span>Microsoft Azure</span
+          ><span>CMDB</span><span>Incident Management</span
+          ><span>Workflow Automation</span>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="section-head center">
+          <span data-i18n="projectsLabel">Projects</span>
+          <h2 data-i18n="projectsTitle">Selected work I have built.</h2>
+        </div>
+
+        <div class="projects-grid three-projects">
+          <article>
+            <div class="project-number">01</div>
+            <h3 data-i18n="projectOneTitle">Hausfee Sandra Website</h3>
+            <p data-i18n="projectOneText">
+              A clean German service website for household help, built with
+              responsive pages, service information, contact details, and a
+              professional user-friendly layout.
+            </p>
+            <div class="project-tags">
+              <span>Next.js</span><span>Tailwind</span
+              ><span>Responsive UI</span>
+            </div>
+            <a
+              class="project-link"
+              href="https://www.hausfeesandra.de/"
+              target="_blank"
+              rel="noreferrer"
+              data-i18n="visitProject"
+              >Visit Project</a
+            >
+          </article>
+
+          <article>
+            <div class="project-number">02</div>
+            <h3 data-i18n="projectTwoTitle">Ahlulbayt Centrum Website</h3>
+            <p data-i18n="projectTwoText">
+              A community website concept with prayer schedules, announcements,
+              events, contact information, location map, and blog structure.
+            </p>
+            <div class="project-tags">
+              <span>React</span><span>Node.js</span><span>Express</span>
+            </div>
+            <a
+              class="project-link"
+              href="https://ahlulbayt-centrum.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              data-i18n="visitProject"
+              >Visit Project</a
+            >
+          </article>
+
+          <article>
+            <div class="project-number">03</div>
+            <h3 data-i18n="projectThreeTitle">Thesis Project</h3>
+            <p data-i18n="projectThreeText">
+              A machine learning project for malicious URL detection using
+              URL-based features, model comparison, evaluation metrics, and
+              security-focused analysis.
+            </p>
+            <div class="project-tags">
+              <span>Python</span><span>Machine Learning</span
+              ><span>Cybersecurity</span>
+            </div>
+            <a
+              class="project-link"
+              href="https://github.com/LaythAl-Zamili/Malicious-url-detection"
+              target="_blank"
+              rel="noreferrer"
+              data-i18n="viewCode"
+              >View Code</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <section class="section experience" id="experience">
+        <div class="section-head">
+          <span data-i18n="experienceLabel">Experience</span>
+          <h2 data-i18n="experienceTitle">
+            A path through support, operations, and enterprise development.
+          </h2>
+        </div>
+
+        <div class="timeline">
+          <article>
+            <span>2023 — 2024</span>
+            <h3 data-i18n="expOneTitle">Software Engineer - ServiceNow</h3>
+            <p>AT&T Global Network Services · Brno, Czechia</p>
+          </article>
+
+          <article>
+            <span>2021 — 2023</span>
+            <h3 data-i18n="expTwoTitle">System Engineer</h3>
+            <p>Infosys · Brno, Czechia</p>
+          </article>
+
+          <article>
+            <span>2019 — 2021</span>
+            <h3 data-i18n="expThreeTitle">
+              Senior Process Executive - Service Desk
+            </h3>
+            <p>Infosys · Brno, Czechia</p>
+          </article>
+
+          <article>
+            <span>2018</span>
+            <h3 data-i18n="expFourTitle">Network Analyst</h3>
+            <p>AT&T · Brno, Czechia</p>
+          </article>
+        </div>
+
+        <div class="education">
+          <div>
+            <h3 data-i18n="educationTitle">Education</h3>
+            <p>
+              <strong data-i18n="eduOne">Master of Software Engineering</strong
+              ><br />Tomas Bata University · 2026
+            </p>
+            <p>
+              <strong data-i18n="eduTwo"
+                >Master of Business Administration</strong
+              ><br />The Czech College of Logistics · 2024
+            </p>
+            <p>
+              <strong data-i18n="eduThree"
+                >BSc in Computer Techniques Engineering</strong
+              ><br />Al-Ma'mon University College · 2016
+            </p>
+          </div>
+          <div>
+            <h3 data-i18n="certTitle">Certification</h3>
+            <p>
+              <strong>ServiceNow Certified Application Developer (CAD)</strong
+              ><br />Issued Oct 2023 · Credential ID 24676055
+            </p>
+            <h3 data-i18n="languagesTitle">Languages</h3>
+            <p data-i18n="languagesText">
+              Arabic native · English C1 · German A2 · Czech work environment
+              experience
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div>
+          <span data-i18n="contactLabel">Contact</span>
+          <h2 data-i18n="contactTitle">
+            Let’s build something useful, reliable, and clean.
+          </h2>
+          <p data-i18n="contactText">
+            Open to software engineering, ServiceNow, enterprise integration, IT
+            operations, and professional web development opportunities.
+          </p>
+        </div>
+
+        <div class="contact-socials" aria-label="Social contact links">
+          <a
+            href="https://www.linkedin.com/in/layth-al-zamili-710425170/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+          >
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M4.98 3.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5ZM3 9h4v12H3V9Zm6.5 0h3.8v1.6h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21h-4V9Z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://github.com/LaythAl-Zamili"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub"
+          >
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.76-.24.76-.54v-2.1c-3.1.67-3.75-1.32-3.75-1.32-.5-1.3-1.24-1.64-1.24-1.64-1.02-.7.08-.68.08-.68 1.13.08 1.73 1.16 1.73 1.16 1 .1.61 2.64 3.15 1.88.1-.73.39-1.22.7-1.5-2.47-.28-5.08-1.24-5.08-5.5 0-1.22.44-2.22 1.16-3-.12-.28-.5-1.42.11-2.96 0 0 .95-.3 3.1 1.15.9-.25 1.86-.38 2.82-.38.96 0 1.92.13 2.82.38 2.15-1.45 3.1-1.15 3.1-1.15.61 1.54.23 2.68.11 2.96.72.78 1.16 1.78 1.16 3 0 4.27-2.61 5.21-5.1 5.49.4.34.76 1.03.76 2.08v3.08c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8Z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://discord.com/users/layth0167"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Discord"
+          >
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M19.54 5.23A16.9 16.9 0 0 0 15.35 4l-.2.4c1.46.36 2.14.88 2.14.88A13.2 13.2 0 0 0 12 4.23a13.2 13.2 0 0 0-5.29 1.05s.68-.52 2.14-.88L8.65 4c-1.47.25-2.88.67-4.19 1.23C1.8 9.16 1.08 13 1.44 16.8A17 17 0 0 0 6.6 19.4l.63-.86a10.7 10.7 0 0 1-1.66-.8l.4-.3c3.2 1.48 6.67 1.48 9.82 0l.4.3c-.53.32-1.08.58-1.66.8l.63.86a17 17 0 0 0 5.16-2.6c.43-4.4-.72-8.2-2.78-11.57ZM8.5 14.45c-1.02 0-1.85-.95-1.85-2.12s.82-2.12 1.85-2.12c1.04 0 1.88.96 1.85 2.12 0 1.17-.82 2.12-1.85 2.12Zm7 0c-1.02 0-1.85-.95-1.85-2.12s.82-2.12 1.85-2.12c1.04 0 1.88.96 1.85 2.12 0 1.17-.82 2.12-1.85 2.12Z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://x.com/Layth_AlZamili/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="X"
+          >
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M18.9 2H22l-6.8 7.8 8 10.2h-6.3l-4.9-6.3L6.4 20H3.3l7.3-8.4L3 2h6.5l4.4 5.7L18.9 2Zm-1.1 16.2h1.7L8.6 3.7H6.8l11 14.5Z"
+              />
+            </svg>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Layth Al-Zamili. All rights reserved.</p>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
